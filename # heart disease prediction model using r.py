@@ -13,7 +13,7 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score, roc_auc_score, roc_curve
 from sklearn.model_selection import train_test_split
 # Load the data
-df = pd.read_csv('./content/heart.csv')
+df = pd.read_csv('heart.csv')
 # Display the first five rows of the data
 df.head()
 # Check the shape of the data
